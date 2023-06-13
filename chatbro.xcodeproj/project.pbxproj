@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543248E52A38C7EC001B2D1B /* chatbroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543248E42A38C7EC001B2D1B /* chatbroApp.swift */; };
+		543248E72A38C7EC001B2D1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543248E62A38C7EC001B2D1B /* ContentView.swift */; };
+		543248E92A38C7ED001B2D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543248E82A38C7ED001B2D1B /* Assets.xcassets */; };
+		543248ED2A38C7ED001B2D1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543248EC2A38C7ED001B2D1B /* Preview Assets.xcassets */; };
+		543248F72A38C7ED001B2D1B /* chatbroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543248F62A38C7ED001B2D1B /* chatbroTests.swift */; };
+		543249012A38C7ED001B2D1B /* chatbroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543249002A38C7ED001B2D1B /* chatbroUITests.swift */; };
+		543249032A38C7ED001B2D1B /* chatbroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543249022A38C7ED001B2D1B /* chatbroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		543248F32A38C7ED001B2D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543248D92A38C7EC001B2D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543248E02A38C7EC001B2D1B;
+			remoteInfo = chatbro;
+		};
+		543248FD2A38C7ED001B2D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543248D92A38C7EC001B2D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543248E02A38C7EC001B2D1B;
+			remoteInfo = chatbro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		543248E12A38C7EC001B2D1B /* chatbro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatbro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543248E42A38C7EC001B2D1B /* chatbroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbroApp.swift; sourceTree = "<group>"; };
+		543248E62A38C7EC001B2D1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		543248E82A38C7ED001B2D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543248EA2A38C7ED001B2D1B /* chatbro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatbro.entitlements; sourceTree = "<group>"; };
+		543248EC2A38C7ED001B2D1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543248F22A38C7ED001B2D1B /* chatbroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatbroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		543248F62A38C7ED001B2D1B /* chatbroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbroTests.swift; sourceTree = "<group>"; };
+		543248FC2A38C7ED001B2D1B /* chatbroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatbroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		543249002A38C7ED001B2D1B /* chatbroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbroUITests.swift; sourceTree = "<group>"; };
+		543249022A38C7ED001B2D1B /* chatbroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543248DE2A38C7EC001B2D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543248EF2A38C7ED001B2D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543248F92A38C7ED001B2D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543248D82A38C7EC001B2D1B = {
+			isa = PBXGroup;
+			children = (
+				543248E32A38C7EC001B2D1B /* chatbro */,
+				543248F52A38C7ED001B2D1B /* chatbroTests */,
+				543248FF2A38C7ED001B2D1B /* chatbroUITests */,
+				543248E22A38C7EC001B2D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		543248E22A38C7EC001B2D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543248E12A38C7EC001B2D1B /* chatbro.app */,
+				543248F22A38C7ED001B2D1B /* chatbroTests.xctest */,
+				543248FC2A38C7ED001B2D1B /* chatbroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543248E32A38C7EC001B2D1B /* chatbro */ = {
+			isa = PBXGroup;
+			children = (
+				543248E42A38C7EC001B2D1B /* chatbroApp.swift */,
+				543248E62A38C7EC001B2D1B /* ContentView.swift */,
+				543248E82A38C7ED001B2D1B /* Assets.xcassets */,
+				543248EA2A38C7ED001B2D1B /* chatbro.entitlements */,
+				543248EB2A38C7ED001B2D1B /* Preview Content */,
+			);
+			path = chatbro;
+			sourceTree = "<group>";
+		};
+		543248EB2A38C7ED001B2D1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				543248EC2A38C7ED001B2D1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		543248F52A38C7ED001B2D1B /* chatbroTests */ = {
+			isa = PBXGroup;
+			children = (
+				543248F62A38C7ED001B2D1B /* chatbroTests.swift */,
+			);
+			path = chatbroTests;
+			sourceTree = "<group>";
+		};
+		543248FF2A38C7ED001B2D1B /* chatbroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				543249002A38C7ED001B2D1B /* chatbroUITests.swift */,
+				543249022A38C7ED001B2D1B /* chatbroUITestsLaunchTests.swift */,
+			);
+			path = chatbroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543248E02A38C7EC001B2D1B /* chatbro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543249062A38C7ED001B2D1B /* Build configuration list for PBXNativeTarget "chatbro" */;
+			buildPhases = (
+				543248DD2A38C7EC001B2D1B /* Sources */,
+				543248DE2A38C7EC001B2D1B /* Frameworks */,
+				543248DF2A38C7EC001B2D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatbro;
+			productName = chatbro;
+			productReference = 543248E12A38C7EC001B2D1B /* chatbro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		543248F12A38C7ED001B2D1B /* chatbroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543249092A38C7ED001B2D1B /* Build configuration list for PBXNativeTarget "chatbroTests" */;
+			buildPhases = (
+				543248EE2A38C7ED001B2D1B /* Sources */,
+				543248EF2A38C7ED001B2D1B /* Frameworks */,
+				543248F02A38C7ED001B2D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543248F42A38C7ED001B2D1B /* PBXTargetDependency */,
+			);
+			name = chatbroTests;
+			productName = chatbroTests;
+			productReference = 543248F22A38C7ED001B2D1B /* chatbroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		543248FB2A38C7ED001B2D1B /* chatbroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5432490C2A38C7ED001B2D1B /* Build configuration list for PBXNativeTarget "chatbroUITests" */;
+			buildPhases = (
+				543248F82A38C7ED001B2D1B /* Sources */,
+				543248F92A38C7ED001B2D1B /* Frameworks */,
+				543248FA2A38C7ED001B2D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543248FE2A38C7ED001B2D1B /* PBXTargetDependency */,
+			);
+			name = chatbroUITests;
+			productName = chatbroUITests;
+			productReference = 543248FC2A38C7ED001B2D1B /* chatbroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543248D92A38C7EC001B2D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					543248E02A38C7EC001B2D1B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					543248F12A38C7ED001B2D1B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 543248E02A38C7EC001B2D1B;
+					};
+					543248FB2A38C7ED001B2D1B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 543248E02A38C7EC001B2D1B;
+					};
+				};
+			};
+			buildConfigurationList = 543248DC2A38C7EC001B2D1B /* Build configuration list for PBXProject "chatbro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543248D82A38C7EC001B2D1B;
+			productRefGroup = 543248E22A38C7EC001B2D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543248E02A38C7EC001B2D1B /* chatbro */,
+				543248F12A38C7ED001B2D1B /* chatbroTests */,
+				543248FB2A38C7ED001B2D1B /* chatbroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543248DF2A38C7EC001B2D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543248ED2A38C7ED001B2D1B /* Preview Assets.xcassets in Resources */,
+				543248E92A38C7ED001B2D1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543248F02A38C7ED001B2D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543248FA2A38C7ED001B2D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543248DD2A38C7EC001B2D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543248E72A38C7EC001B2D1B /* ContentView.swift in Sources */,
+				543248E52A38C7EC001B2D1B /* chatbroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543248EE2A38C7ED001B2D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543248F72A38C7ED001B2D1B /* chatbroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543248F82A38C7ED001B2D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543249032A38C7ED001B2D1B /* chatbroUITestsLaunchTests.swift in Sources */,
+				543249012A38C7ED001B2D1B /* chatbroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543248F42A38C7ED001B2D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543248E02A38C7EC001B2D1B /* chatbro */;
+			targetProxy = 543248F32A38C7ED001B2D1B /* PBXContainerItemProxy */;
+		};
+		543248FE2A38C7ED001B2D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543248E02A38C7EC001B2D1B /* chatbro */;
+			targetProxy = 543248FD2A38C7ED001B2D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		543249042A38C7ED001B2D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		543249052A38C7ED001B2D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		543249072A38C7ED001B2D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chatbro/chatbro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chatbro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Database.chatbro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		543249082A38C7ED001B2D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chatbro/chatbro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chatbro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Database.chatbro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5432490A2A38C7ED001B2D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Database.chatbroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatbro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chatbro";
+			};
+			name = Debug;
+		};
+		5432490B2A38C7ED001B2D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Database.chatbroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatbro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chatbro";
+			};
+			name = Release;
+		};
+		5432490D2A38C7ED001B2D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Database.chatbroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chatbro;
+			};
+			name = Debug;
+		};
+		5432490E2A38C7ED001B2D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Database.chatbroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chatbro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543248DC2A38C7EC001B2D1B /* Build configuration list for PBXProject "chatbro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543249042A38C7ED001B2D1B /* Debug */,
+				543249052A38C7ED001B2D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543249062A38C7ED001B2D1B /* Build configuration list for PBXNativeTarget "chatbro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543249072A38C7ED001B2D1B /* Debug */,
+				543249082A38C7ED001B2D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543249092A38C7ED001B2D1B /* Build configuration list for PBXNativeTarget "chatbroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5432490A2A38C7ED001B2D1B /* Debug */,
+				5432490B2A38C7ED001B2D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5432490C2A38C7ED001B2D1B /* Build configuration list for PBXNativeTarget "chatbroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5432490D2A38C7ED001B2D1B /* Debug */,
+				5432490E2A38C7ED001B2D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543248D92A38C7EC001B2D1B /* Project object */;
+}
