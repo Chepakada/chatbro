@@ -19,8 +19,8 @@ The main goal is to create a app with chat feature. Hence, this is the first ste
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Swift Documentation](https://www.swift.org/documentation/)
+- [Firebase Documentation](https://firebase.google.com/docs/)
 
 # Future Work
 
